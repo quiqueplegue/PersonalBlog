@@ -58,7 +58,7 @@ config = {
 						pass: 'ghostblogquique'
 					}
 				}
-		}
+		},
         database: {
             client: 'sqlite3',
             connection: {
