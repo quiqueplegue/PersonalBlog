@@ -49,7 +49,16 @@ config = {
     // Configure your URL and mail settings here
     production: {
         url: 'http://'+process.env.OPENSHIFT_APP_DNS,
-        mail: {},
+		mail: {
+				transport: 'SMTP',
+				options: {
+					service: 'Gmail',
+					auth: {
+						user: 'blog.quiqueplegue@gmail.com',
+						pass: 'ghostblogquique'
+					}
+				}
+		}
         database: {
             client: 'sqlite3',
             connection: {
