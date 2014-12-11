@@ -57,7 +57,7 @@ config = {
 					secureConnection: true,
 					port: 465,
 					auth: {
-						user: 'blog.quiqueplegue@gmail.com',
+						user: 'blog.quiqueplegue',
 						pass: 'ghostblogquique'
 					}
 				}
