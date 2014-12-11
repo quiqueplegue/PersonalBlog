@@ -53,6 +53,9 @@ config = {
 				transport: 'SMTP',
 				options: {
 					service: 'Gmail',
+					host: 'smtp.gmail.com',
+					secureConnection: true,
+					port: 465,
 					auth: {
 						user: 'blog.quiqueplegue@gmail.com',
 						pass: 'ghostblogquique'
