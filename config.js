@@ -51,13 +51,11 @@ config = {
         url: 'http://'+process.env.OPENSHIFT_APP_DNS,
 		mail: {
 				transport: 'SMTP',
+				host: 'smtp.gmail.com',
 				options: {
 					service: 'Gmail',
-					host: 'smtp.gmail.com',
-					secureConnection: true,
-					port: 465,
 					auth: {
-						user: 'blog.quiqueplegue',
+						user: 'blog.quiqueplegue@gmail.com',
 						pass: 'ghostblogquique'
 					}
 				}
